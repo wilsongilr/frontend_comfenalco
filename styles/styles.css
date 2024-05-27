@@ -38,7 +38,8 @@ header h1 {
 }
 
 .menu a:hover {
-    background-color: #03045e;
+    background-color: white;
+    color: #03045e;
 
 }
 
@@ -48,9 +49,9 @@ header h1 {
 }
 
 #banner {
-    /* background: url(../img/banner2.jpg); */
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 94, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background: url(../img/banner3.jpg);
+    /* background: rgb(2, 0, 36); */
+    /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 94, 121, 1) 35%, rgba(0, 212, 255, 1) 100%); */
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -62,15 +63,32 @@ header h1 {
 
 #banner h2 {
     font-size: 45px;
-    color: white;
+    color: #c1121f;
+    padding-right: 20%;
+    /*rgb(189, 183, 183); */
     font-weight: bolder;
+    text-align: end;
 }
+
+#banner p{
+    padding-right: 20%;
+    text-align: end;
+}
+
+/* #banner p {
+    font-size: 25px;
+    text-shadow: #ccc 1px 0 10px;
+    font-weight: bold;
+    text-align: end;
+    padding-right:15%;
+} */
 
 #banner .container {
     position: relative;
     top: 30%;
     color: white;
     font-weight: 600;
+
 }
 
 #banner .container button {
@@ -82,6 +100,24 @@ header h1 {
     font-size: 14px;
     font-weight: 600;
     margin-top: 10px;
+}
+
+#song {
+    padding: 20px;
+}
+
+#song .title-song {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #023047;
+    padding: 20px 0;
+}
+
+#song .title-song p {
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
 }
 
 #song .container {
@@ -141,8 +177,113 @@ footer {
     background-color: #023047;
     color: white;
     display: flex;
-    flex-wrap: wrap;
+    padding: 1rem;
+    /* flex-wrap: wrap;
     position: relative;
     bottom: 0;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #023047;
+    color: white; */
 }
+
+footer .container {
+    text-align: center;
+}
+
+footer .container .copy {
+    font-size: 15px;
+}
+
+footer .social a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.container-blog {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 0.25rem;
+    /* box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25); */
+    box-shadow: 22px 6px 25px 8px rgba(2, 48, 71, 1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 0.5rem;
+    width: 400px;
+    margin: 1rem;
+}
+
+.card_title {
+    color: #023047;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.card_content {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.card_text {
+    flex: 1 1 auto;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+
+
+.title-history{
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #023047;
+    font-size: 25px;
+}
+    /* .container-blog {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+.card {
+    margin: 20px 20px;
+    background-color: white;
+    border-radius: 0.25rem;
+    /* box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25); 
+    box-shadow: 10px 10px 48px 14px rgba(2,48,71,0.64);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 10px 10px;
+}
+
+
+
+.card p {
+    text-align: justify;
+    padding: 10px;
+} */

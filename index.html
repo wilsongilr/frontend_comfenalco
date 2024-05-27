@@ -7,16 +7,42 @@
     <title>My Music Favorite</title>
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" href="/styles/fontello.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
 </head>
 
 <body>
+    <!-- <nav>
+        <h2 class="logo icon-headphones">My Music Favorites</h2>
+        <div class="bars">
+            <i class="fa fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+            <li class="nav-link"><a href="#">Home</a></li>
+            <li class="nav-link"><a href="#">Blog</a></li>
+            <li class="nav-link auth"><a href="#">Register</a></li>
+            <li class="nav-link auth"><a href="#">Login</a></li> 
+        </ul>
+    </nav> -->
+    <!-- <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <h1 class="icon-headphones">My Songs Favorites</h1>
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </nav> -->
     <header>
         <div class="container">
-            <h1 class="icon-headphones">My Music Favorites</h1>
+            <h1 class="icon-headphones">My Songs Favorites</h1>
             <nav class="menu">
-                <a href="">Home</a>
-                <a href="">Blog</a>
+                <a href="index.html">Home</a>
+                <a href="history.html">History</a>
             </nav>
         </div>
     </header>
@@ -26,12 +52,15 @@
             <p>
                 Discover a new and fun space to learn about songs, groups and musical artists.
             </p>
-            <button><a href=""></a> Enjoy more</button>
+            <p>
+                <button><a href=""></a> Enjoy more</button>
+            </p>
+            
         </div>
     </section>
 
     <section id="song">
-        <div class="title">
+        <div class="title-song">
             <h3>favorite song</h3>
             <p>These are some of my favorite songs</p>
 
@@ -45,32 +74,29 @@
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </article>
             <article>
-                <h4>Heroes De Leyenda</h4>
-                <iframe width="400" height="315"
-                    src="https://www.youtube.com/embed/ZYwYberUJVM?si=2_2T3Za2P1OH4Fjk&amp;start=1"
+                <h4>Another Brick In The Wall</h4>
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/JjoLEXz8FkU?si=rU4fCgs2R01MoGtx"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+            <!-- <article>
+                <h4>The Power</h4>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pAgnJDJN4VA?si=O2-GytjoxOZUkgsQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article> -->
+            <article>
+                <h4>One</h4>
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/WM8bTdBs-cw?si=9KbghJI7dNvhqO1b"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </article>
             <article>
-                <h4>Catch & Release (Deepend remix)</h4>
-                <iframe width="400" height="315"
-                    src="https://www.youtube.com/embed/Rip0bX2qrIs?si=N7p6QtO48vSe6gOO&amp;start=1"
+                <h4>Queen</h4>
+                <iframe width="400" height="315" src="https://www.youtube.com/embed/g2N0TkfrQhY?si=FpLBHeD9Su8psUEV"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </article>
-            <article>
-                <h4>Concierto De Amistad</h4>
-                <iframe width="400" height="315"
-                    src="https://www.youtube.com/embed/97ZWlK88Zbs?si=zdoQ7KPonzeEJRwV&amp;start=1"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </article>
-            <article>
-                <h4>Space Age Love Song</h4>
-                <iframe width="400" height="315" src="https://www.youtube.com/embed/f5mBN9aQHGI?si=lbkTNIlrIIyYlRCJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </article>
         </div>
     </section>
@@ -78,33 +104,39 @@
         <h3 class="title-artist">Artists Favorite</h3>
         <div class="container">
             <div class="info-artists">
-                <img src="img/metallica.jpg" alt="">
+                <a href="https://www.metallica.com/" target="_blank">
+                    <img src="img/metallica.jpg" alt="">
+                </a>
                 <h4>Metallica</h4>
             </div>
             <div class="info-artists">
-                <img src="img/herosdelsilencio.jpg" alt="">
-                <h4>Heroes Del Silencio</h4>
+                <a href="https://www.pinkfloyd.com/" target="_blank">
+                    <img src="img/pinkfloyd.jpg" alt="">
+                </a>
+                <h4>Pink Floyd</h4>
             </div>
             <div class="info-artists">
-                <img src="img/mattsimons.jpg" alt="">
-                <h4>Matt Simons</h4>
+                <a href="https://www.queenonline.com/" target="_blank">
+                    <img src="img/queen.jpg" alt="">
+                </a>
+                <h4>Queen</h4>
             </div>
-            <div class="info-artists">
-                <img src="img/combopuertorico.jpg" alt="">
-                <h4>Gran Combo De Puerto Rico</h4>
-            </div>
+            <!-- <div class="info-artists">
+                <a href="https://www.metallica.com/" target="_blank">
+                    <img src="img/snap.jpg" alt="">
+                </a>
+                <h4>SNAP</h4>
+            </div> -->
         </div>
-
     </section>
     <footer>
         <div class="container">
-            <p class="copy">Power by &copy 2024</p>
-        </div>
-        <div class="social">
-            <a class="icon-facebook" href=""></a>
-            <a class="icon-twitter" href=""></a>
-            <a class="icon-instagram" href=""></a>
-
+            <p class="copy">Power by WGILR &copy 2024</p>
+            <div class="social">
+                <a class="icon-facebook" href=""></a>
+                <a class="icon-twitter" href=""></a>
+                <a class="icon-instagram" href=""></a>
+            </div>
         </div>
     </footer>
 
