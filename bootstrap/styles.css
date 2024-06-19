@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+
+/* style generals */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: red;
+  font-family: "Rubik Dirt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.section-dark {
+  color: white;
+  background-color: #1b1b32;
+}
+
+.section-light {
+  color: black;
+  background-color: white;
+}
+
+.section-title {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'Rubik Dirt', cursive;
+}
+
+.section-text {
+  font-size: 1.2rem;
+}
+
+
+.logo {
+  width: 3rem;
+}
+
+/* Barra de navegacion */
+
+.navbar-light {
+  background-color: #eceff7;
+}
+
+.navbar {
+  padding: 2rem;
+  background-color: #f5f6f7;
+  font-weight: 500;
+}
+
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+/* Section Hero */
+
+.profile {
+  background-color: #f5f6f7;
+  min-height: 450px;
+  text-align: center;
+}
+
+
+.profile-principal {
+  padding: 3rem;
+}
+
+.profile-img {
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.profile-principal h2 {
+  font-size: 1.5rem;
+  color: #615151;
+}
+
+/* Section .about */
+.about {
+  height: 500px;
+  padding: 10px;
+}
+
+.about .container-about {
+  max-width: 600px;
+  text-align: center;
+}
+
+
+/* Section experience */
+
+.section-experience {
+  padding: 40px;
+}
+
+
+
+
+/* responsive */
+
+@media screen and (max-width: 767px) {
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .section-text {
+    font-size: 1.2rem;
+    padding: 10px 50px;
+  }
+  
+
+}
+
+@media screen and (min-width: 700px) {
+  .profile-inferior-img {
+    max-width: 600px;
+  }
+}
