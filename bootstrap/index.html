@@ -41,16 +41,16 @@
         </a>
         <ul class="navbar-nav d-flex justify-content-center align-items-center">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
+            <a class="nav-link active" aria-current="page" href="#about">Sobre mi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Proyectos</a>
+            <a class="nav-link" href="#section-projects">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Testimonios</a>
+            <a class="nav-link" href="#section-carousel">Testimonios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
+            <a class="nav-link" href="#section-contact">Contacto</a>
           </li>
         </ul>
       </div>
@@ -68,7 +68,7 @@
     </div>
   </section>
   <!-- Section about -->
-  <section class="about section-dark">
+  <section id="about" class="about section-dark">
     <div class="container-about">
       <h2 class="section-title">Conoce mas sobre WGILDev</h2>
       <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eligendi eum ex
@@ -82,7 +82,7 @@
   </section>
 
   <!-- Section experience -->
-  <section class="section-experience section-light">
+  <section id="section-experience" class="section-experience section-light">
     <div class="container text-center">
       <div class="row">
         <!-- Desarrollo web -->
@@ -130,7 +130,7 @@
     </div>
   </section>
   <!-- Projects   -->
-  <section class="section-projects section-light d-flex flex-column">
+  <section id="section-projects" class="section-projects section-light d-flex flex-column">
     <h2 class="section-title text-dark">Mis Proyectos</h2>
     <h3 class="section-description">Estos son proyectos creados recientemenete</h3>
     <!-- galery projects -->
@@ -142,11 +142,11 @@
           <div class="project">
             <img src="/images/proyecto1.png" alt="project 1">
             <div class="overlay">
-              <p>Proyecto 1</p>
+              <p>Tools</p>
               <div>
               </div>
               <div class="icon-container">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/wilsongilr/apptools" target="_blank" rel="noopener noreferrer">
                   <i class="bi bi-github"></i>
                 </a>
                 <a href="https://ctapp.coorditanques.com" target="_blank" rel="noopener noreferrer">
@@ -161,14 +161,14 @@
           <div class="project">
             <img src="/images/proyecto2.png" alt="project 2">
             <div class="overlay">
-              <p>Proyecto 2</p>
+              <p>Carrito Pedidos</p>
               <div>
               </div>
               <div class="icon-container">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/wilsongilr/cartOrders" target="_blank" rel="noopener noreferrer">
                   <i class="bi bi-github"></i>
                 </a>
-                <a href="https://ctapp.coorditanques.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://ctapp.coorditanques.com/pedidoscd/" target="_blank" rel="noopener noreferrer">
                   <i class="bi bi-laptop"></i>
                 </a>
               </div>
@@ -180,14 +180,14 @@
           <div class="project">
             <img src="/images/proyecto3.png" alt="project 3">
             <div class="overlay">
-              <p>Proyecto 3</p>
+              <p>API GV</p>
               <div>
               </div>
               <div class="icon-container">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/wilsongilr/apiCTGViajes" target="_blank" rel="noopener noreferrer">
                   <i class="bi bi-github"></i>
                 </a>
-                <a href="https://ctapp.coorditanques.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://ctapp.coorditanques.com/ApiGVConductores/swagger/index.html" target="_blank" rel="noopener noreferrer">
                   <i class="bi bi-laptop"></i>
                 </a>
               </div>
@@ -199,14 +199,14 @@
           <div class="project">
             <img src="/images/proyecto4.png" alt="project 4">
             <div class="overlay">
-              <p>Proyecto 4</p>
+              <p>API Conductores</p>
               <div>
               </div>
               <div class="icon-container">
                 <a href="https://github.com" target="_blank" rel="noopener noreferrer">
                   <i class="bi bi-github"></i>
                 </a>
-                <a href="https://ctapp.coorditanques.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://ctapp.coorditanques.com/ApiAPConductores/swagger/index.html" target="_blank" rel="noopener noreferrer">
                   <i class="bi bi-laptop"></i>
                 </a>
               </div>
@@ -259,7 +259,7 @@
       </button>
     </a>
   </section>
-  <section class="section-article justify-content-start">
+  <section id="section-article" class="section-article justify-content-start">
     <h2 class="section-title text-dark">Artículos</h2>
     <div class="card">
       <div class="card-header">
@@ -291,7 +291,7 @@
     </button>
   </section>
   <!-- Carousel -->
-  <section class="section-carousel section-light">
+  <section id="section-carousel" class="section-carousel section-light">
     <h2 class="section-title">Variados</h2>
     <h3 class="section-description">Ingresar aca en seccion algun referenete a l proyecto</h3>
     <!-- Carousel Bootstrap -->
@@ -359,7 +359,7 @@
   </section>
 
   <!-- Contact -->
-   <section class="section-contact section-dark">
+   <section id="section-contact" class="section-contact section-dark">
     <div class="container">
       <div class="container text-center rectangle d-flex justify-content-evenly">
         <div class="row">
@@ -400,6 +400,10 @@
       <a href="" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-linkedin"></i>
       </a>
+    </div>
+    <br>
+    <div class="copyright">
+      Creador por WGilDEV (2024) &#169;
     </div>
 
    </footer>
