@@ -10,7 +10,7 @@ section {
 
 h1 {
   font-size: 2.5rem;
-  color: red;
+  color: #BDBDBD;
   font-family: "Rubik Dirt", cursive;
   font-weight: 400;
   font-style: normal;
@@ -18,8 +18,14 @@ h1 {
 
 .section-dark {
   color: white;
-  background-color: #3692F5
+  background-color: black;
 }
+
+.section-blue {
+  color: white;
+  background-color: #3692F5;
+}
+
 
 .section-light {
   color: black;
@@ -59,20 +65,34 @@ h1 {
 
 .logo {
   width: 3rem;
+  color: #3692F5;
 }
 
 /* Barra de navegacion */
 
 .navbar-light {
-  background-color: #eceff7;
+  background-color: black;
 }
 
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  /* background-color: #f5f6f7; */
+  background-color: rgb(255, 255, 255);
   font-weight: 500;
 }
 
+.navbar img {
+  color: #fff;
+}
+
+.navbar a {
+  color: black;
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold ;
+  color: black;
+}
 
 .navbar-collapse {
   align-items: center;
@@ -84,27 +104,29 @@ h1 {
 /* Section Hero */
 
 .profile {
-  background-color: #f5f6f7;
+  background-color: black;
   min-height: 450px;
   text-align: center;
 }
 
 
 .profile-principal {
-  padding: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
 
 .profile-img {
-  width: 250px;
-  height: 250px;
-  border: 2px solid black;
-  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #fff;
+  /* border-radius: 50%; */
   margin: 20px;
 }
 
 .profile-principal h2 {
   font-size: 1.5rem;
-  color: #615151;
+  color: #fff;
+  /* color: #615151; */
 }
 
 /* Section .about */
@@ -113,8 +135,13 @@ h1 {
   padding: 10px;
 }
 
-.about .container-about {
-  max-width: 600px;
+.about .contenedor-about {
+  max-width: 700px;
+  text-align: center;
+}
+
+.section-carousel .container-carousel {
+  max-width: 700px;
   text-align: center;
 }
 
@@ -127,7 +154,7 @@ h1 {
 
 .section-experience i {
   font-size: 2.5rem;
-  color: #7ade30;
+  color: #3692F5;
   background-color: #0a0a23;
   padding: 8px 19px;
   border-radius: 50%;
@@ -146,10 +173,13 @@ h1 {
 
 
 
-.section-experience .columna:hover {
+.section-experience .columna:hover, i:hover {
   color: white;
   background-color: #1b1b32;
 }
+
+
+
 
 /* .section-experience .row div {
   height: 250px;
@@ -252,7 +282,7 @@ h1 {
 /* Carousel */
 
 .section-carousel {
-  padding: 40px 40px 80px 40px;
+  padding: 30px 40px 70px 40px;
 }
 
 
@@ -317,9 +347,10 @@ h1 {
 .section-contact .rectangle {
   margin-top: -5rem;
   /* background-color: rgb(13, 110, 253); */
-  background-color: #F53651;
+  background-color: rgb(255,255,255);
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px #fff;
+  border: 2px solid black;
 }
 
 .section-contact .row {
@@ -330,12 +361,17 @@ h1 {
 
 
 .section-contact .section-description {
-  color: white;
+  color: black;
   font-size: 1.2rem;
+  font-weight: bold;
 }
 
 
-.section-contact button {
+.section-contact .section-title {
+  color: black;
+}
+
+/* .section-contact button {
   background-color: transparent;
   color: white;
   font-weight: bold;
@@ -344,30 +380,45 @@ h1 {
   margin: 10px;
   border-radius: 100px;
   transition: all 0.2s ease-in-out;
+} */
+
+
+.section-contact button {
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
 }
+
 
 
 .section-contact button:hover {
   background-color: white;
-  color: black;
+  background-color: #3692F5;
+  color: white;
 }
 
 
 .section-contact button i {
-  color: white;
+  color: black;
   font-size: 1.3em;
   transition: all 0.2s ease-in-out;
 }
 
 
 .section-contact button:hover i {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 /* footer */
 
 footer {
   min-height: 500px;
+  text-align: center;
 }
 
 .footer-logo {
@@ -397,10 +448,13 @@ footer {
 }
 
 .icons-social-networks a:hover {
-  background-color: white;
-  border: 2px solid rgb(13, 110, 253);
+  background-color: black;
+  border: 2px solid white;
 }
 
+footer i:hover {
+  background-color: black;
+}
 
 .icons-social-networks i {
   color: white;
@@ -409,13 +463,13 @@ footer {
 }
 
 .icons-social-networks a:hover i {
- color: black;
+ color: #fff;
 }
 
 
 .copyright {
   font-size: 15px;
-  color: #aeaeae;
+  color: #fff;
   padding: 20px;
 }
 

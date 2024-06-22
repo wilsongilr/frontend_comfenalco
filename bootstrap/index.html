@@ -29,7 +29,7 @@
 
 <body>
   <!-- Barra de navegacion -->
-  <nav class="navbar navbar-expand-md navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
         aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,24 +59,19 @@
   <!-- Section Profile -->
   <section class="profile align-items-stretch">
     <div class="profile-principal d-flex flex-column justify-content-center align-items-center">
-      <img class="profile-img" src="/images/profile.png" alt="image profile">
-      <h1>Bienvenidos, Soy Wilson Gil</h1>
+      <img class="profile-img rounded-circle" src="./images/profile.png" alt="image profile">
+      <h1>Hola, Soy Wilson Gil</h1>
       <h2>Desarrollo sitios web, api, entre otros</h2>
     </div>
     <div class="profile-inferior">
-      <img class="profile-inferior-img img-fluid" src="/images/profile-inferior.svg" alt="">
+      <img class="profile-inferior-img img-fluid" src="/images/profile-inferior.svg" alt="Laptop y logos html css y react">
     </div>
   </section>
   <!-- Section about -->
-  <section id="about" class="about section-dark">
-    <div class="container-about">
+  <section id="about" class="about section-blue">
+    <div class="contenedor-about">
       <h2 class="section-title">Conoce mas sobre WGILDev</h2>
-      <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eligendi eum ex
-        excepturi iusto quae dicta id consequuntur explicabo nihil beatae, minima saepe illum alias? Officiis
-        accusantium optio ad nesciunt.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam veritatis quidem, dolore adipisci corrupti,
-        tempore, ex illum ullam voluptas voluptatem distinctio in deserunt nihil quam? Possimus minus tempora eligendi
-        harum!
+      <p class="section-text">Desarrollador de Software especializado en .NET, JavaScript, React,, HTML, CSS y Bootstrap con experiencia en el diseño, desarrollo y mantenimiento de aplicaciones web y móviles. Hábil en la creación de interfaces de usuario intuitivas y funcionales, y en la implementación de soluciones backend robustas y escalables. Fuerte enfoque en la calidad del código, la eficiencia y las mejores prácticas de desarrollo. Proactivo, orientado a resultados y con capacidad para trabajar en equipo y adaptarse a nuevas tecnologías y metodologías ágiles.
       </p>
     </div>
   </section>
@@ -269,20 +264,20 @@
         <a href="https://www.freecodecamp.org/news" target="_blank" rel="noopener noreferrer">
           <li class="list-group-item">How to Create a Masonry Layout Using HTML and CSS</li>
         </a>
-        <a href="https://www.freecodecamp.org/news" target="_blank" rel="noopener noreferrer">
-          <li class="list-group-item">How to Create a Masonry Layout Using HTML and CSS</li>
+        <a href="https://react.dev/blog" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">React Blog</li>
         </a>
-        <a href="https://www.freecodecamp.org/news" target="_blank" rel="noopener noreferrer">
-          <li class="list-group-item">How to Create a Masonry Layout Using HTML and CSS</li>
+        <a href="https://blurify.com/blog/react-js-from-a-developers-point-of-view-pros-cons/" target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">React.js From a Developer’s Point of View – Pros & Cons</li>
         </a>
-        <a href="https://www.freecodecamp.org/news" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.theknowledgeacademy.com/blog/react-bootstrap/" target="_blank" rel="noopener noreferrer">
           <li class="list-group-item">
-            How to Create a Masonry Layout Using HTML and CSS
+            What is React Bootstrap ? Learn the Basics
           </li>
         </a>
-        <a href="https://www.freecodecamp.org/news" target="_blank" rel="noopener noreferrer">
+        <a href="https://blog.openreplay.com/how-to-read-and-write-json-in-javascript/ " target="_blank" rel="noopener noreferrer">
           <li class="list-group-item">
-            Leer archivos JSON desde JavaScript
+            How To Read And Write JSON In JavaScript
           </li>
         </a>
       </ul>
@@ -292,14 +287,17 @@
   </section>
   <!-- Carousel -->
   <section id="section-carousel" class="section-carousel section-light">
-    <h2 class="section-title">Variados</h2>
-    <h3 class="section-description">Ingresar aca en seccion algun referenete a l proyecto</h3>
+    <h2 class="section-title">Experiencias</h2>
+    <div class="container-carousel">
+      <p class="section-description">Nuestros clientes destacan la solidez de sus experiencias con mis proyectos, resaltando la capacidad para entregar soluciones robustas y de alta calidad. La colaboración efectiva y el enfoque en satisfacer las necesidades del cliente han sido clave para construir relaciones duraderas y exitosas.</p>
+    </div>
+    
     <!-- Carousel Bootstrap -->
     <div id="carrusel" class="carousel carousel-dark slide " data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="container">
-            <img class="carousel-img rounded-circle" src="images/proyecto1.png" alt="Foto Samuel">
+            <img class="carousel-img rounded-circle" src="images/profile1.jpg" alt="Foto Samuel">
             <p class="carousel-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, fugit.
             </p>
@@ -315,7 +313,7 @@
         </div>
         <div class="carousel-item">
           <div class="container">
-            <img class="carousel-img rounded-circle" src="images/proyecto1.png" alt="Foto Luciana">
+            <img class="carousel-img rounded-circle" src="images/profile2.jpg" alt="Foto Luciana">
             <p class="carousel-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, fugit.
             </p>
@@ -331,7 +329,7 @@
         </div>
         <div class="carousel-item">
           <div class="container">
-            <img class="carousel-img rounded-circle" src="images/proyecto1.png" alt="Foto Paula">
+            <img class="carousel-img rounded-circle" src="images/profile3.jpg" alt="Foto Paula">
             <p class="carousel-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, fugit.
             </p>
