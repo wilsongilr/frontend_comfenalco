@@ -81,6 +81,21 @@ h1 {
   font-weight: 500;
 }
 
+.nav-item {
+  
+  border-bottom-right-radius: 1px;
+  border-color: #3692F5;
+  border-style: solid;
+  margin-right: 5px;
+  border-radius: 10px;
+}
+
+.nav-item:hover {
+  border: 1px solid black;
+  background-color: #3692F5;
+}
+
+
 .navbar img {
   color: #fff;
 }
@@ -490,6 +505,15 @@ footer i:hover {
 
   .navbar-brand {
     display: none;
+  }
+
+  .nav-item {
+    border: none;
+  }
+
+  .nav-item:hover {
+    border: none;
+    background-color: white;
   }
 
   .section-text {
