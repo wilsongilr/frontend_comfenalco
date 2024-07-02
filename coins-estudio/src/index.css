@@ -1,0 +1,57 @@
+/* /* .columna {
+    padding: 10px;
+    border: 2px solid #8080804d;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+  }
+
+
+ body {
+    background-color: aqua;
+ }
+
+ .card {
+    margin: 10px 15px;
+    width: 30%;
+    background-color: red;
+
+ }
+
+ .card-header {
+    color: aqua;
+ }
+
+  .coins-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  
+.badges-contenedor {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  .badges-contenedor h6 {
+    color: white;
+    font-weight: bold;
+  }
+
+
+
+  */
+
+  .card {
+    width: 300px;
+    box-shadow: 10px 10px 5px -1px rgba(240,235,240,1);
+  }
+  
+  body {
+    background: #eee;
+  }

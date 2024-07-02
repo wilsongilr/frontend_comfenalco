@@ -1,0 +1,12 @@
+body {
+    background: rgb(173, 216, 230);
+
+  }
+
+
+.card {
+    width: 300px;
+    box-shadow: 10px 10px 5px -1px rgba(240,235,240,1);
+  }
+  
+
