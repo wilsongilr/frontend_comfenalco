@@ -1,9 +1,9 @@
-import { createBrowserRouter, RouterProvider, } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Movies from "./pages/Movies";
 import DetailMovies from "./pages/DetailMovies";
+import Error404 from "./pages/Error404";
 
 function App() {
-
   const router = createBrowserRouter([
     {
       path: "/",
@@ -13,15 +13,17 @@ function App() {
       path: "/description/:id",
       element: <DetailMovies />,
     },
+    {
+      path: "*",
+      element: <Error404 />,
+    },
   ]);
-
 
   return (
     <div className="container">
       <RouterProvider router={router} />
     </div>
-
-  )
+  );
 }
 
-export default App
+export default App;

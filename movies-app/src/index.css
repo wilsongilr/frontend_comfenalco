@@ -7,7 +7,17 @@ body {
 }
 
 .card {
-  background-color: rgb(70, 130, 180);
+  /* background-color: rgb(70, 130, 180); */
+  background-color: #f0f8ff;
+}
+
+.card-title {
+  color: #0000ff;
+}
+
+.txt-details {
+  color: #223343;
+  font-weight: bold;
 }
 
 .card:hover {
